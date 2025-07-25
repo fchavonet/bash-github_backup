@@ -97,7 +97,7 @@ chmod +x github_backup.sh
 
 3. Creating a GitHub token:
 - Go to GitHub Settings > Developer settings > Personal access tokens.
-- GGenerate a new token with `repo` permissions.
+- Generate a new token with `repo` permissions.
 - Use the token as the second parameter.
 
 ## 🔧 <span id="whats-next">What's next?</span>
