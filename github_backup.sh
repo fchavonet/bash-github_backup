@@ -1,6 +1,10 @@
 #!/bin/bash
 
-BACKUP_DIRECTORY="./github_backup"
+# Generate folder name with date in YYYY/MM/DD format.
+YEAR=$(date +%Y)
+MONTH=$(date +%m)
+DAY=$(date +%d)
+BACKUP_DIRECTORY="./github_backup_(${YEAR}∕${MONTH}∕${DAY})"
 
 # RGB colors.
 RED="\033[0;31m"
