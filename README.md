@@ -81,6 +81,8 @@ git clone https://github.com/fchavonet/bash-github_backup.git
 chmod +x github_backup.sh
 ```
 
+> 📌 You need to have `curl` installed for the script to work.
+
 **How to use:**
 
 1. Basic usage (for public repositories):
