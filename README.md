@@ -57,18 +57,18 @@ chmod +x github_backup.sh
 
 1. Basic usage (for public repositories):
 
-```bash
+```
 ./github_backup.sh your_github_username
 ```
 
 2. With token (for private repositories or accounts with 60+ repos):
 
-```bash
+```
 ./github_backup.sh your_github_username your_github_token
 ```
 
 3. Creating a GitHub token:
-- Go to GitHub Settings > Developer settings > Personal access tokens.
+- Go to GitHub > Settings > Developer settings > Personal access tokens.
 - Generate a new token with `repo` permissions.
 - Use the token as the second parameter.
 
